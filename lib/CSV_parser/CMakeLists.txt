@@ -5,6 +5,10 @@ add_library(CSV_parser STATIC
 target_include_directories(CSV_parser
         PUBLIC include
         INTERFACE ${CMAKE_SOURCE_DIR}/lib/tuple_utility/include)
+target_link_directories(CSV_parser
+        INTERFACE ${CMAKE_BINARY_DIR}/lib/tuple_utility)
+target_link_libraries(CSV_parser
+        INTERFACE tuple_utility)
 
 message(STATUS "Creating tests for library \"CSV_parser\"")
 find_package(GTest)
