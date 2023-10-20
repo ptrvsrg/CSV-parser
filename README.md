@@ -1,5 +1,7 @@
 # Задача 4. Парсер CSV
 
+[![Testing](https://github.com/ptrvsrg/NSU-OOP-CXX-CSV-parser/actions/workflows/cmake.yml/badge.svg)](https://github.com/ptrvsrg/NSU-OOP-CXX-CSV-parser/actions/workflows/cmake.yml)
+
 ### Subtask 1. Print tuple
 Используя рекурсивные шаблоны реализовать оператор для печати std:tuple:
 
